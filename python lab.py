@@ -10,7 +10,7 @@ if choice=='c':
 elif choice=='f':
     fahrenheit=float(input("Enter temperature in Fahrenheit:"))
     celsius=(fahrenheit-32)*5/9
-    print('%2f Fahrenheit is:%0.2f celsius' %(fahrenheit,celsius))
+    print('%.2f Fahrenheit is:%0.2f celsius' %(fahrenheit,celsius))
 else:
     print("Invalid Input")
 
